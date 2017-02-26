@@ -1,6 +1,8 @@
 
 public class FizzBuzz {
     public static String isFizz(int number) {
-        return "fizz";
+        if (number == 3)
+            return "fizz";
+        else return "buzz";
     }
 }

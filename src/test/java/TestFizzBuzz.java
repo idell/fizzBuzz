@@ -12,4 +12,14 @@ public class TestFizzBuzz {
         String expected = "fizz";
         assertEquals(actual,expected);
     }
+    @Test
+    public void isBuzz() throws Exception {
+        int number = 5;
+        String actual = FizzBuzz.isFizz(number);
+        String expected = "buzz";
+        assertEquals(actual,expected);
+    }
+
+
+
 }
